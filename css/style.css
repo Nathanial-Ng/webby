@@ -1,0 +1,86 @@
+body {
+  font-family: 'noto serif', sans-serif;
+  font-weight: 100;
+}
+
+h1, h2, h3 {
+  text-transform:full-width;
+  letter-spacing:0.5px;
+  font-weight: 300;
+}
+
+header {
+  text-align: center; /*please insert note here*/
+  color: black;
+  background-color: green;
+  background-image: url(../images/facebook.png);
+  background-size:auto;
+  padding:10px;
+}
+
+header img {
+  border: 10px solid rgba(255,255,255,0.5);
+  border-radius: 50%;
+  margin-bottom: 20px;
+}
+
+div {
+  padding: 60px;
+  line-height:3;
+}
+
+a {
+  color: red;
+  text-decoration: inherit;
+  }
+
+a:hover {
+  background-color: red;
+  }
+
+.footer {
+  background-color: lightblue;
+}
+
+.skills {
+  background-color: lightblue;
+}
+
+footer {
+  background-color: lightblue;
+  text-align: center;
+}
+
+footer ul {
+  padding: 30px;
+  }
+
+footer ul li {
+  display: inline;
+  margin: 5px;
+  padding: 20px;
+}
+
+.row {
+  width: 960px;
+  margin: 0 auto;
+}
+
+.col {
+  width: 33.33%;
+  float: left;
+  padding: 0;
+}
+
+.hobbies {
+  clear: both;
+}
+
+@media (max-width: 960px) {
+  .row {
+    width: 100%;
+  }
+.col {
+  width: 100%;
+}
+}
